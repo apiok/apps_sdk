@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "browser": "dist/index.umd.js",
   "module": "dist/index.es.js",
-  "umdName": "okApi",
+  "umdName": "OKSDK",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
