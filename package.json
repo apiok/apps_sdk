@@ -1,0 +1,39 @@
+{
+  "name": "@ok/app-sdk",
+  "version": "1.0.1",
+  "description": "Connects an Application with OK client",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "browser": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "umdName": "okApi",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "test",
+    "build": "export NODE_ENV=development && npx rollup -c",
+    "build:prod": "export NODE_ENV=production && npx rollup -c"
+  },
+  "author": {
+    "name": "OK",
+    "url": "https://ok.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apiok/apps_sdk.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "prettier": "^2.8.8",
+    "rollup": "^3.29.1",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.0.4"
+  }
+}
