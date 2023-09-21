@@ -88,8 +88,10 @@ Call API methods
 **Parameters**
 
 - `params` _required_ Object with call params including method name
-- `callback` _required_ A function that will be called after the server responds
+- `callback` _optional_ A function that will be called after the server responds
 - `resig` _optional_ Required when it is necessary to request user confirmation for any action through a separate preview. In all other cases, call the function with only 2 parameters.
+
+Method can be used with callback or with promise
 
 **Example**
 
@@ -108,5 +110,16 @@ const callback = (status, data, error) => {
 };
 
 OKSDK.Client.call(params, callback);
+```
+
+OR 
+
+```js
+// Sending event to client
+const params = {
+    "method":"friends.get"
+};
+
+const data = await OKSDK.Client.call(params);
 ```
 

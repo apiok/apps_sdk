@@ -1,6 +1,6 @@
 {
-  "name": "@ok/app-sdk",
-  "version": "1.0.1",
+  "name": "@ok/apps-sdk",
+  "version": "1.0.0",
   "description": "Connects an Application with OK client",
   "license": "MIT",
   "main": "dist/index.js",
