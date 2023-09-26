@@ -2,3 +2,5 @@ src
 node_modules
 rollup.config.mjs
 tsconfig.json
+.gitignore
+publish.sh

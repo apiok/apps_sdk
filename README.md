@@ -3,16 +3,16 @@
 ## Usage
 
 ```js
-import OKSDK from '@odnoklassniki/apps-sdk';
+import OKSDK from '@odnoklassniki/ok-apps-sdk';
 
 // Init SDK
 await OKSDK.init();
 ```
 
-For use in a browser, include the file [`dist/browser.min.js`](https://unpkg.com/@ok/apps-sdk/dist/browser.min.js) and use as follows
+For use in a browser, include the file [`dist/browser.min.js`](https://unpkg.com/@odnoklassniki/ok-apps-sdk/dist/browser.min.js) and use as follows
 
 ```html
-<script src="https://unpkg.com/@ok/apps-sdk/dist/browser.min.js"></script>
+<script src="https://unpkg.com/@odnoklassniki/ok-apps-sdk/dist/browser.min.js"></script>
 
 <script>
     // Init SDK

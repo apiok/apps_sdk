@@ -1,6 +1,6 @@
 {
-  "name": "@ok/apps-sdk",
-  "version": "1.0.0",
+  "name": "@odnoklassniki/ok-apps-sdk",
+  "version": "1.0.1",
   "description": "Connects an Application with OK client",
   "license": "MIT",
   "main": "dist/index.js",

@@ -8,10 +8,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@ok/app-api": ["./packages/core"]
-    }
+    "skipLibCheck": true
   },
   "exclude": ["**/dist", "**/node_modules"]
 }
